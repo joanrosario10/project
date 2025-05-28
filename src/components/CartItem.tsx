@@ -15,7 +15,7 @@ const CartItem: React.FC<CartItemProps> = ({ item }) => {
     <div className="flex items-center p-4 border-b border-gray-200 last:border-b-0">
       <div className="w-20 h-20 flex-shrink-0 overflow-hidden rounded-md">
         <img 
-          src={product.image} 
+          src={product.images[0]} 
           alt={product.name} 
           className="w-full h-full object-cover"
         />
